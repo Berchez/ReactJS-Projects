@@ -59,7 +59,7 @@ export class Home extends Component {
     const noMorePosts = page+postsPerPage >= allPosts.length;
 
     const filteredPosts = !!searchValue ? 
-    posts.filter(post => {
+    allPosts.filter(post => {
       return post.title.toLowerCase().includes(searchValue.toLowerCase());
     }) 
     : 
