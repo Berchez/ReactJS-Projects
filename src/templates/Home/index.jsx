@@ -5,13 +5,15 @@ import './styles.css';
 import { Posts } from '../../components/Posts';
 import { loadPosts } from '../../utils/load-posts';
 import { Button } from '../../components/Button';
+import { TextInput } from '../../components/TextInput';
 
 export class Home extends Component {
   state = {
     posts : [],
     allPosts: [],
     page: 0,
-    postsPerPage: 4 
+    postsPerPage: 4,
+    searchValue: ''
   };
 
   async componentDidMount(){
@@ -47,20 +49,55 @@ export class Home extends Component {
 
   }
 
+  handleChange = (e) => {
+    const {value} = e.target;
+    this.setState({searchValue: value});
+  }
+
   render() {
-    const {posts, page, postsPerPage, allPosts} = this.state;
+    const {posts, page, postsPerPage, allPosts, searchValue} = this.state;
     const noMorePosts = page+postsPerPage >= allPosts.length;
 
-    return (
-      <section className='container'>
-        <Posts posts={posts}/>
+    const filteredPosts = !!searchValue ? 
+    posts.filter(post => {
+      return post.title.toLowerCase().includes(searchValue.toLowerCase());
+    }) 
+    : 
+    posts;
 
-        <div class="button-container">
-          <Button 
-            text='Load More Posts' 
-            onClick={this.loadMorePosts}
-            disabled={noMorePosts}
-          />  
+    return (
+
+      <section className='container'>
+        <div className='search-container'>
+          {
+            !!searchValue && (
+                <h1>Search Value: {searchValue}</h1>
+            )
+          }
+
+          <TextInput searchValue={searchValue} handleChange={this.handleChange}/>
+        </div>
+
+        {filteredPosts.length > 0 && (
+          <Posts posts={filteredPosts}/>
+        )}
+
+        {filteredPosts.length === 0 && (
+          <p>Not found :/</p>
+        )}
+
+        <div className="button-container">
+
+          {
+            !searchValue && (
+              <Button 
+                text='Load More Posts' 
+                onClick={this.loadMorePosts}
+                disabled={noMorePosts}
+              />  
+            )
+          }
+          
         </div> 
         
       </section>
