@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './styles.css';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function UseStateFn() {
   const [reverse, setReverse] = useState(false);
@@ -30,9 +31,11 @@ function UseStateFn() {
         <button type="button" onClick={handleClick}>
           Reverse {reverseClass}
         </button>
-        <br></br>
         <button type="button" onClick={handleIncrement}>
           Increment
+        </button>
+        <button>
+          <Link to="/useEffect">UseEffect</Link>
         </button>
       </header>
     </div>
