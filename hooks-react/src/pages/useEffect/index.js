@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 const eventFn = () => {
@@ -31,6 +32,10 @@ function UseEffectFn() {
       </h1>
       <button onClick={() => setCounter(counter + 1)}>+</button>
       <button onClick={() => setCounter2(counter2 + 1)}>+</button>
+      <br></br>
+      <button>
+        <Link to="/useCallback">UseCallBack</Link>
+      </button>
     </div>
   );
 }
