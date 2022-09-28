@@ -1,23 +1,23 @@
-.App {
+.useStateFb {
   text-align: center;
 }
 
-.App-logo {
+.useStateFb-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .useStateFb-logo {
+    animation: useStateFb-logo-spin infinite 20s linear;
   }
 
   .reverse {
-    animation: App-logo-spin-reverse infinite 20s linear;
+    animation: useStateFb-logo-spin-reverse infinite 20s linear;
   }
 }
 
-.App-header {
+.useStateFb-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -28,11 +28,11 @@
   color: white;
 }
 
-.App-link {
+.useStateFb-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes useStateFb-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -41,7 +41,7 @@
   }
 }
 
-@keyframes App-logo-spin-reverse {
+@keyframes useStateFb-logo-spin-reverse {
   from {
     transform: rotate(360deg);
   }
