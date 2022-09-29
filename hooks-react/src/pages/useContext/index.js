@@ -1,4 +1,5 @@
 import { useContext, createContext, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 const globalState = {
@@ -53,6 +54,9 @@ function UseContextFn() {
   return (
     <GlobalContext.Provider value={{ contextState, setContextState }}>
       <Div />
+      <button>
+        <Link to="/useReducer">useReducer</Link>
+      </button>
     </GlobalContext.Provider>
   );
 }

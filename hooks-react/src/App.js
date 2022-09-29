@@ -6,6 +6,7 @@ import UseCallbackFn from './pages/useCallback';
 import UseMemoFn from './pages/useMemo';
 import UseRefFn from './pages/useRef';
 import UseContextFn from './pages/useContext';
+import UseReducerFn from './pages/useReducer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/useMemo" element={<UseMemoFn />} />
         <Route path="/useRef" element={<UseRefFn />} />
         <Route path="/useContext" element={<UseContextFn />} />
+        <Route path="/useReducer" element={<UseReducerFn />} />
       </Routes>
     </Router>
   );
