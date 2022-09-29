@@ -4,6 +4,7 @@ import UseStateFn from './pages/useState';
 import UseEffectFn from './pages/useEffect';
 import UseCallbackFn from './pages/useCallback';
 import UseMemoFn from './pages/useMemo';
+import UseRefFn from './pages/useRef';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/useEffect" element={<UseEffectFn />} />
         <Route path="/useCallback" element={<UseCallbackFn />} />
         <Route path="/useMemo" element={<UseMemoFn />} />
+        <Route path="/useRef" element={<UseRefFn />} />
       </Routes>
     </Router>
   );

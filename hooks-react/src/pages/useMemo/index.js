@@ -1,5 +1,6 @@
 import P from 'prop-types';
 import { useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Post = ({ post }) => {
   console.log('Filho renderizou');
@@ -37,6 +38,9 @@ function UseMemoFn() {
   return (
     <div className="App">
       <h1>useMemo</h1>
+      <button>
+        <Link to="/useRef">useRef</Link>
+      </button>
       <p>
         <input
           type="search"
