@@ -1,6 +1,7 @@
 import P from 'prop-types';
 import { useEffect, useMemo, useState, useRef } from 'react';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const Post = ({ post, handleClick }) => {
   console.log('filho renderizou');
@@ -63,6 +64,9 @@ function UseRefFn() {
           onChange={(e) => setValue(e.target.value)}
         />
       </p>
+      <button>
+        <Link to="/useContext">useContext</Link>
+      </button>
       {useMemo(() => {
         return (
           posts.length > 0 &&
