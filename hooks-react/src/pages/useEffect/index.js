@@ -27,6 +27,7 @@ function UseEffectFn() {
 
   return (
     <div className="App">
+      <h1>useEffect</h1>
       <h1>
         Contador: {counter} Contador2: {counter2}{' '}
       </h1>
