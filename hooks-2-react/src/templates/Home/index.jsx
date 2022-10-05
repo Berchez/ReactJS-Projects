@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import Button from '../../components/Button';
+import { Heading } from '../../components/Heading';
 import { useCounterContext } from '../../contexts/CounterContext';
 
 export const Home = () => {
@@ -11,7 +13,11 @@ export const Home = () => {
 
   return (
     <div>
-      <h1 onClick={() => actions.increase()}>Oi</h1>
+      <Heading />
+
+      <div>
+        <Button onButtonClick={actions.increase}>Increase</Button>
+      </div>
     </div>
   );
 };
