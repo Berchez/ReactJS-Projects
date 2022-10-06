@@ -18,3 +18,17 @@ Este projeto foi feito para aprender o básico de react como:
 
 #### Pesquisa Vazia
 ![Site2](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/basico-react/src/images/sitePreview2.png)
+
+## Projeto: Hooks react
+
+Este projeto foi feito para dedicar apenas para a utilização de hooks, sem contar com nada gráfico.
+Neste projeto foi utilizado:
+* React Router Dom
+* ESLint, Prettier, editorConfig e Prop-Types
+* useState
+* useEffect
+* useCallback
+* useMemo
+* useRef
+* useContext
+* useReducer
