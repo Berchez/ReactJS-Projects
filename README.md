@@ -22,7 +22,7 @@ Este projeto foi feito para aprender o básico de react como:
 ## Projeto: Hooks react
 
 Este projeto foi feito para dedicar apenas para a utilização de hooks, sem contar com nada gráfico.
-Neste projeto foi utilizado:
+Neste projeto foi estudado o uso de:
 * React Router Dom
 * ESLint, Prettier, editorConfig e Prop-Types
 * useState
