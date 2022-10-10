@@ -13,9 +13,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-size: 2,4rem;
+    font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.default}
-1  }
+  }
 
   h1{
     font-family: ${({ theme }) => theme.font.family.secondary}
