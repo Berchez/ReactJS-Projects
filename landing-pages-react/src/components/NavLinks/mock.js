@@ -35,11 +35,6 @@ export default [
     newTab: false,
   },
   {
-    children: 'Link 7',
-    link: '#target7',
-    newTab: false,
-  },
-  {
     children: 'Link 8',
     link: '#target8',
     newTab: false,
