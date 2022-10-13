@@ -9,9 +9,6 @@ export default {
       'https://raw.githubusercontent.com/luizomf/curso-reactjs-nextjs-project-3/df9710798d0c759f1d4e1a82a374791fbbdd92a2/public/assets/images/logo.svg',
     link: 'http://localhost',
   },
-  argTypes: {
-    children: { type: 'string' },
-  },
 };
 
 export const ImageOnly = (args) => {
