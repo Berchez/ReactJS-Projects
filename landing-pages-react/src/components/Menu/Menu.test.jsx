@@ -3,7 +3,7 @@ import { renderTheme } from '../../styles/render-theme';
 import { Menu } from '.';
 
 import linksMock from '../NavLinks/mock';
-import { theme } from '../../theme';
+import { theme } from '../../styles/theme';
 const logoData = {
   text: 'Logo',
   link: '#target',
@@ -32,7 +32,7 @@ describe('<Menu />', () => {
       media: theme.media.lteMedium,
     });
 
-    expect(button).toHaveStyleRule('opacity', '0', {
+    expect(menuContainer).toHaveStyleRule('opacity', '0', {
       media: theme.media.lteMedium,
     });
     expect(screen.getByLabelText('Open menu')).toBeInTheDocument();
@@ -41,10 +41,11 @@ describe('<Menu />', () => {
     expect(menuContainer).toHaveStyleRule('opacity', '1', {
       media: theme.media.lteMedium,
     });
+    expect(screen.getByLabelText('Close menu')).toBeInTheDocument();
 
     fireEvent.click(menuContainer);
     expect(menuContainer).toHaveStyleRule('opacity', '0', {
-      media: theme.media.lteMedia,
+      media: theme.media.lteMedium,
     });
     expect(screen.getByLabelText('Open menu')).toBeInTheDocument();
   });
@@ -54,6 +55,6 @@ describe('<Menu />', () => {
     expect(
       screen.queryByRole('navigation', { name: 'Main menu' }).firstChild,
     ).not.toBeInTheDocument();
-    expect(container).toMatchSnapshot;
+    expect(container).toMatchSnapshot();
   });
 });

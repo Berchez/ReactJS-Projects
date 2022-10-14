@@ -10,6 +10,6 @@ describe('<SectionContainer />', () => {
       </SectionContainer>,
     );
     expect(screen.getByRole('heading')).toBeInTheDocument();
-    expect(container).toMatchSnapshot;
+    expect(container).toMatchSnapshot();
   });
 });

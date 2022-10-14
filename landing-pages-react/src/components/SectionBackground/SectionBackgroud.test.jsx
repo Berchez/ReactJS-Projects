@@ -10,7 +10,7 @@ describe('<SectionBackground />', () => {
       </SectionBackground>,
     );
     expect(screen.getByRole('heading')).toBeInTheDocument();
-    expect(container).toMatchSnapshot;
+    expect(container).toMatchSnapshot();
   });
 
   it('should render with background ligth', () => {
@@ -20,6 +20,6 @@ describe('<SectionBackground />', () => {
       </SectionBackground>,
     );
     expect(screen.getByRole('heading')).toBeInTheDocument();
-    expect(container).toMatchSnapshot;
+    expect(container).toMatchSnapshot();
   });
 });

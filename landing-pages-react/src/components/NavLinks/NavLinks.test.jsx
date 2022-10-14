@@ -3,7 +3,7 @@ import { renderTheme } from '../../styles/render-theme';
 import { NavLinks } from '.';
 
 import mock from './mock';
-import theme from '../../styles/theme';
+import { theme } from '../../styles/theme';
 
 describe('<NavLinks />', () => {
   it('should render links', () => {
@@ -29,6 +29,6 @@ describe('<NavLinks />', () => {
 
   it('should match snapshot', () => {
     const { container } = renderTheme(<NavLinks links={mock} />);
-    expect(container.firstChild).toMatchSnapshot;
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

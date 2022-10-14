@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import { Heading } from '.';
 import { renderTheme } from '../../styles/render-theme';
-import theme from '../../styles/theme';
+import { theme } from '../../styles/theme';
 
 describe('<Heading />', () => {
   it('should render with the default values', () => {
