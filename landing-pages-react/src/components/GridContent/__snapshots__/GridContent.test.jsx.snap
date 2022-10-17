@@ -58,7 +58,7 @@ exports[`<GridContent /> should render grid content 1`] = `
         >
           O título que eu quero
         </h2>
-        <p
+        <div
           class="c4"
         >
           <p>
@@ -149,7 +149,7 @@ exports[`<GridContent /> should render grid content 1`] = `
   
             </code>
           </pre>
-        </p>
+        </div>
       </div>
     </div>
   </div>
@@ -214,7 +214,7 @@ exports[`<GridContent /> should render grid content 2`] = `
         >
           O título que eu quero
         </h2>
-        <p
+        <div
           class="c4"
         >
           <p>
@@ -305,7 +305,7 @@ exports[`<GridContent /> should render grid content 2`] = `
   
             </code>
           </pre>
-        </p>
+        </div>
       </div>
     </div>
   </div>

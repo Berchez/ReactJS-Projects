@@ -86,11 +86,11 @@ exports[`<GridText /> should render with background 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Anim deserunt tempor est eu voluptate.
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -102,11 +102,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Title 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Sit duis non incididunt incididunt voluptate ad sit officia. Voluptate ex ad cillum deserunt labore aute occaecat sint irure amet. Sit velit deserunt dolore ea sunt in proident sit anim irure deserunt. Fugiat Lorem sunt velit qui commodo ut dolore qui. Anim incididunt laboris magna amet. Est veniam velit tempor id.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -116,11 +116,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Title 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Sit duis non incididunt incididunt voluptate ad sit officia. Voluptate ex ad cillum deserunt labore aute occaecat sint irure amet. Sit velit deserunt dolore ea sunt in proident sit anim irure deserunt. Fugiat Lorem sunt velit qui commodo ut dolore qui. Anim incididunt laboris magna amet. Est veniam velit tempor id.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -130,11 +130,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Title 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Sit duis non incididunt incididunt voluptate ad sit officia. Voluptate ex ad cillum deserunt labore aute occaecat sint irure amet. Sit velit deserunt dolore ea sunt in proident sit anim irure deserunt. Fugiat Lorem sunt velit qui commodo ut dolore qui. Anim incididunt laboris magna amet. Est veniam velit tempor id.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -144,11 +144,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Title 4
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Sit duis non incididunt incididunt voluptate ad sit officia. Voluptate ex ad cillum deserunt labore aute occaecat sint irure amet. Sit velit deserunt dolore ea sunt in proident sit anim irure deserunt. Fugiat Lorem sunt velit qui commodo ut dolore qui. Anim incididunt laboris magna amet. Est veniam velit tempor id.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -243,11 +243,11 @@ exports[`<GridText /> should render without 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Anim deserunt tempor est eu voluptate.
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -259,11 +259,11 @@ exports[`<GridText /> should render without 1`] = `
             >
               Title 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Sit duis non incididunt incididunt voluptate ad sit officia. Voluptate ex ad cillum deserunt labore aute occaecat sint irure amet. Sit velit deserunt dolore ea sunt in proident sit anim irure deserunt. Fugiat Lorem sunt velit qui commodo ut dolore qui. Anim incididunt laboris magna amet. Est veniam velit tempor id.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -273,11 +273,11 @@ exports[`<GridText /> should render without 1`] = `
             >
               Title 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Sit duis non incididunt incididunt voluptate ad sit officia. Voluptate ex ad cillum deserunt labore aute occaecat sint irure amet. Sit velit deserunt dolore ea sunt in proident sit anim irure deserunt. Fugiat Lorem sunt velit qui commodo ut dolore qui. Anim incididunt laboris magna amet. Est veniam velit tempor id.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -287,11 +287,11 @@ exports[`<GridText /> should render without 1`] = `
             >
               Title 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Sit duis non incididunt incididunt voluptate ad sit officia. Voluptate ex ad cillum deserunt labore aute occaecat sint irure amet. Sit velit deserunt dolore ea sunt in proident sit anim irure deserunt. Fugiat Lorem sunt velit qui commodo ut dolore qui. Anim incididunt laboris magna amet. Est veniam velit tempor id.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -301,11 +301,11 @@ exports[`<GridText /> should render without 1`] = `
             >
               Title 4
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Sit duis non incididunt incididunt voluptate ad sit officia. Voluptate ex ad cillum deserunt labore aute occaecat sint irure amet. Sit velit deserunt dolore ea sunt in proident sit anim irure deserunt. Fugiat Lorem sunt velit qui commodo ut dolore qui. Anim incididunt laboris magna amet. Est veniam velit tempor id.
-            </p>
+            </div>
           </div>
         </div>
       </div>
