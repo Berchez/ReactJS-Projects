@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
   }
 
   html {
@@ -14,7 +15,8 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-size: 1.6rem;
-    font-family: ${({ theme }) => theme.font.family.default}
+    font-family: ${({ theme }) => theme.font.family.default};
+    left: 100%
   }
 
   h1{
