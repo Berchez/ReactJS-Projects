@@ -42,7 +42,7 @@ describe('<GoTop />', () => {
 
       <div>
         <a
-          aria-aria-label="Go to top"
+          aria-label="Go to top"
           class="c0"
           href="#"
           title="Go to top"

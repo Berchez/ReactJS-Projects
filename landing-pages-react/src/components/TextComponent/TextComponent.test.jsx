@@ -3,9 +3,9 @@ import { renderTheme } from '../../styles/render-theme';
 import { TextComponent } from '.';
 
 describe('<TextComponent />', () => {
-  it('should render', () => {
-    renderTheme(<TextComponent>textcomponent</TextComponent>);
-    expect(screen.getByText('textcomponent')).toBeInTheDocument();
+  it('should render a text', () => {
+    renderTheme(<TextComponent>Children</TextComponent>);
+    expect(screen.getByText('Children')).toBeInTheDocument();
   });
 
   it('should match snapshot', () => {
