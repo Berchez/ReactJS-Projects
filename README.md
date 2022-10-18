@@ -32,3 +32,15 @@ Neste projeto foi estudado o uso de:
 * useRef
 * useContext
 * useReducer
+
+## Projeto: Landing Pages
+
+Este projeto foi desenvolvido com a finalidade de praticar o conteudo estudado em uma situação mais "real". Além disto foram aprendidos as tecnologias:
+
+* Strapi
+* PostgreSQL
+* Styled-Components
+* Storybook
+* Snippets
+
+![Home](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/homePreview.png)
