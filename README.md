@@ -1,8 +1,8 @@
-# Aprendendo React
+# :atom_symbol: Aprendendo React :atom_symbol: 
 
 Este repositório é destinado para fazer o versionamento dos projetos que realizo com a finalidade de estudar react.
 
-## :atom_symbol: Projeto: Básico react
+## Projeto: Básico react
 
 Este projeto foi feito para aprender o básico de react como:
 * Componentes de classe
@@ -47,4 +47,4 @@ Este projeto foi desenvolvido com a finalidade de praticar o conteudo estudado e
 ![Home](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/homePreview.png)
 
 ### Menu Mobile
-![Menu](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/menuMobilePreview.png.png)
+![Menu](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/menuMobilePreview.png)
