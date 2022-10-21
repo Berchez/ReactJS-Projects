@@ -1,4 +1,4 @@
-import { mapMenu, mapMenuLinks } from './map.menu';
+import { mapMenu, mapMenuLinks } from './map-menu';
 
 describe('map-menu', () => {
   it('should return a predefined object if no data', () => {
@@ -17,8 +17,8 @@ describe('map-menu', () => {
       menu: [
         {
           open_in_new_tab: false,
-          link_text: 'princing',
-          url: '#princing',
+          link_text: 'pricing',
+          url: '#pricing',
         },
         {
           open_in_new_tab: false,
@@ -48,7 +48,7 @@ describe('map-menu', () => {
     const links = mapMenuLinks([
       {
         open_in_new_tab: false,
-        link_text: 'princing',
+        link_text: 'pricing',
         url: '#pricing',
       },
       {},
