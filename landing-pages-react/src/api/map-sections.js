@@ -7,14 +7,14 @@ export const mapSections = (sections = []) => {
       return mapSectionContent(section);
     }
     if (section.__component === 'section.section-grid') {
-      const { __component: { text_grid = [], image_grid = [] } = '' } = section;
+      const { text_grid = [], image_grid = [] } = section;
 
       if (text_grid.length > 0) {
         return mapTextGrid(section);
       }
 
       if (image_grid.length > 0) {
-        // return mapImageGrid(seletion);
+        return mapImageGrid(section);
       }
     }
     return section;
@@ -40,7 +40,7 @@ export const mapSectionTwoColumns = (section = {}) => {
   };
 };
 
-export const mapSectionContent = (section) => {
+export const mapSectionContent = (section = {}) => {
   const {
     __component: component = '',
     title = '',
@@ -56,9 +56,8 @@ export const mapSectionContent = (section) => {
   };
 };
 
-export const mapTextGrid = (section) => {
+export const mapTextGrid = (section = {}) => {
   const {
-    __component: component = '',
     title = '',
     description = '',
     metadata: { background = false, section_id: sectionId = '' } = false,
@@ -66,11 +65,43 @@ export const mapTextGrid = (section) => {
   } = section;
 
   return {
-    component,
+    component: 'section.section-grid-text',
     title,
     background,
     sectionId,
     description,
-    grid,
+    grid: grid.map((text) => {
+      const { title = '', description = '' } = text;
+      return {
+        title,
+        description,
+      };
+    }),
+  };
+};
+
+export const mapImageGrid = (section = {}) => {
+  const {
+    title = '',
+    description = '',
+    metadata: { background = false, section_id: sectionId = '' } = false,
+    image_grid: grid = [],
+  } = section;
+
+  return {
+    component: 'section.section-grid-image',
+    title,
+    background,
+    sectionId,
+    description,
+    grid: grid.map((img) => {
+      const {
+        image: { url: srcImg = '', alternativeText: altText = '' } = '',
+      } = img;
+      return {
+        srcImg,
+        altText,
+      };
+    }),
   };
 };
