@@ -6,7 +6,7 @@ This repository is intended to version the projects I carry out to study react.
 ## Project: Basic react
 
 This project was made to learn the basics of react like:
-* Componentes de classe
+* Class components
 * State
 * Lifecycle Methods
 * Data Fetching
