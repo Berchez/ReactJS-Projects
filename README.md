@@ -1,10 +1,11 @@
-# :atom_symbol: Aprendendo React :atom_symbol: 
+# :atom_symbol: Learning React :atom_symbol: 
 
-Este repositório é destinado para fazer o versionamento dos projetos que realizo com a finalidade de estudar react.
 
-## Projeto: Básico react
+This repository is intended to version the projects I carry out to study react.
 
-Este projeto foi feito para aprender o básico de react como:
+## Projeto: Basic react
+
+This project was made to learn the basics of react like:
 * Componentes de classe
 * State
 * Lifecycle Methods
@@ -16,13 +17,13 @@ Este projeto foi feito para aprender o básico de react como:
 #### Home
 ![Site](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/basico-react/src/images/sitePreview.png)
 
-#### Pesquisa Vazia
+#### Empty Search
 ![Site2](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/basico-react/src/images/sitePreview2.png)
 
-## Projeto: Hooks react
+## Project: Hooks react
 
-Este projeto foi feito para dedicar apenas para a utilização de hooks, sem contar com nada gráfico.
-Neste projeto foi estudado o uso de:
+This project was made to dedicate only to the use of hooks, without reckoning anything graphical.
+In this project, the use of:
 * React Router Dom
 * ESLint, Prettier, editorConfig e Prop-Types
 * useState
@@ -33,9 +34,9 @@ Neste projeto foi estudado o uso de:
 * useContext
 * useReducer
 
-## Projeto: Landing Pages
+## Project: Landing Pages
 
-Este projeto foi desenvolvido com a finalidade de praticar o conteudo estudado em uma situação mais "real". Além disto foram aprendidos as tecnologias:
+This project was developed in order to practice the content studied in a more "real" situation. In addition, the technologies were learned:
 
 * Strapi
 * PostgreSQL
@@ -48,3 +49,6 @@ Este projeto foi desenvolvido com a finalidade de praticar o conteudo estudado e
 
 ### Menu Mobile
 ![Menu](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/menuMobilePreview.png)
+
+### Page 404
+![404](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/page404.png)
