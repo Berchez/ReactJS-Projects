@@ -45,7 +45,11 @@ This project was developed in order to practice the content studied in a more "r
 * Snippets
 
 ### Home
-![Home](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/homePreview.png)
+![Home1](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/home1Preview.png)
+
+![Home2](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/home2Preview.png)
+
+![Home3](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/home3Preview.png)
 
 ### Menu Mobile
 ![Menu](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/menuMobilePreview.png)
