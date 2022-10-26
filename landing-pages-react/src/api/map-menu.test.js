@@ -27,7 +27,9 @@ describe('map-menu', () => {
         },
       ],
       logo: {
-        url: 'a.svg',
+        data: {
+          url: 'a.svg',
+        },
       },
     });
     expect(menu.newTab).toBe(false);
