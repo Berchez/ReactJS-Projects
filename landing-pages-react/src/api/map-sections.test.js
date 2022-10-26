@@ -16,7 +16,7 @@ describe('map-sections', () => {
 
   it('should render sections with correct data', () => {
     const data = mapSections(pagesFakeData[0].sections);
-    expect(data[0].component).toBe('section.sections-two-columns');
+    expect(data[0].component).toBe('section.section-two-columns');
   });
 
   it('should test section with invalid data', () => {
@@ -26,14 +26,14 @@ describe('map-sections', () => {
       },
     ]);
 
-    const withNoComponent = mapSections([{}]);
+    const WithNoComponent = mapSections([{}]);
     expect(withNoTextOrImageGrid).toEqual([
       { __component: 'section.section-grid' },
     ]);
-    expect(withNoComponent).toEqual([{}]);
+    expect(WithNoComponent).toEqual([{}]);
   });
 
-  it('should test section.section-grid with text_grid or image_grid', () => {
+  it('should test section.section-grid with no text_grid or image_grid', () => {
     const withNoTextOrImageGrid = mapSections([
       {
         __component: 'section.section-grid',
@@ -116,10 +116,6 @@ describe('map-sections', () => {
         },
         {
           title: 'Teste 2',
-          description:
-            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.',
-        },
-        {
           description: 'abc',
         },
       ],
