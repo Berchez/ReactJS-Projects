@@ -3,6 +3,7 @@ import { Base } from '../Base';
 import { mockBase } from '../Base/mock';
 import { mapData } from '../../api/map-data';
 import { PageNotFound } from '../PageNotFound';
+import { Loading } from '../Loading';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -13,10 +14,17 @@ function Home() {
         const data = await fetch(
           'http://localhost:1337/api/pages/?slug=olha-so-a-minha-pagina',
         );
+
         const json = await data.json();
         const { attributes } = json.data[0];
         const pageData = mapData([attributes]);
-        setData(() => pageData[0]);
+
+        await new Promise((r) => {
+          return setTimeout(() => {
+            setData(() => pageData[0]);
+            r();
+          }, 2000);
+        });
       } catch {
         setData(undefined);
       }
@@ -29,7 +37,7 @@ function Home() {
   }
 
   if (data && !data.slug) {
-    return <h1>Loading...</h1>;
+    return <Loading />;
   }
 
   return <Base {...mockBase} />;

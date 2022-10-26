@@ -51,4 +51,7 @@ This project was developed in order to practice the content studied in a more "r
 ![Menu](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/menuMobilePreview.png)
 
 ### Page 404
-![404](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/page404.png)
+![404](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/page404Preview.png)
+
+### Loading
+![404](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/loadingPreview.png)
