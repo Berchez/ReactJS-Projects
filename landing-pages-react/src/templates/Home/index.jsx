@@ -11,7 +11,7 @@ function Home() {
     const load = async () => {
       try {
         const data = await fetch(
-          'http://localhosta:1337/api/pages/?slug=olha-so-a-minha-pagina',
+          'http://localhost:1337/api/pages/?slug=olha-so-a-minha-pagina',
         );
         const json = await data.json();
         const { attributes } = json.data[0];
