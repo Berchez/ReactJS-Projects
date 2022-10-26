@@ -3,7 +3,7 @@
 
 This repository is intended to version the projects I carry out to study react.
 
-## Projeto: Basic react
+## Project: Basic react
 
 This project was made to learn the basics of react like:
 * Componentes de classe
@@ -15,10 +15,10 @@ This project was made to learn the basics of react like:
 * Testing Library (Jest)
 
 #### Home
-![Site](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/basico-react/src/images/sitePreview.png)
+![Site](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/basic-react/src/images/sitePreview.png)
 
 #### Empty Search
-![Site2](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/basico-react/src/images/sitePreview2.png)
+![Site2](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/basic-react/src/images/sitePreview2.png)
 
 ## Project: Hooks react
 
