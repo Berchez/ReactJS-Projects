@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+
 import { mapData } from '../../api/map-data';
 import { PageNotFound } from '../PageNotFound';
 import { Loading } from '../Loading';
@@ -10,12 +12,16 @@ import { Base } from '../Base';
 
 function Home() {
   const [data, setData] = useState([]);
+  const location = useLocation();
 
   useEffect(() => {
+    const pathname = location.pathname.replace(/[^a-z0-9-_]/gi, '');
+    const slug = pathname ? pathname : 'landing-pages';
+
     const load = async () => {
       try {
         const data = await fetch(
-          'http://localhost:1337/api/pages/?slug=olha-so-a-minha-pagina&populate=deep',
+          `http://localhost:1337/api/pages/?filters[slug]=${slug}&populate=deep`,
         );
 
         const json = await data.json();
@@ -34,7 +40,7 @@ function Home() {
       }
     };
     load();
-  }, []);
+  }, [location.pathname]);
 
   if (data === undefined) {
     return <PageNotFound />;
