@@ -27,10 +27,9 @@ function Home() {
           return setTimeout(() => {
             setData(() => pageData[0]);
             r();
-          }, 2000);
+          }, 1000);
         });
       } catch (e) {
-        console.log(e);
         setData(undefined);
       }
     };
@@ -47,7 +46,6 @@ function Home() {
 
   const { menu, sections, footerHtml, slug } = data;
   const { links, text, link, srcImg } = menu;
-  console.log(data);
 
   return (
     <Base
@@ -58,8 +56,6 @@ function Home() {
       {sections.map((section, index) => {
         const { component } = section;
         const key = `${slug}-${index}`;
-
-        console.log('a', component);
 
         if (component === 'section.section-two-columns') {
           return <GridTwoColumns key={key} {...section} />;

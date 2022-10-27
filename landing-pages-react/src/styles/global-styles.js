@@ -6,7 +6,6 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
   }
 
   html {
@@ -36,5 +35,15 @@ export const GlobalStyles = createGlobalStyle`
 
   a {
     color: ${({ theme }) => theme.colors.secondaryColor}
+  }
+
+  .table {
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  td {
+    padding: 1rem;
+    width: 50px;
   }
 `;

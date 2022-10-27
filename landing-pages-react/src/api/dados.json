@@ -6,7 +6,7 @@
         "title": "Olha só a minha página",
         "slug": "olha-so-a-minha-pagina",
         "createdAt": "2022-10-06T14:20:51.833Z",
-        "updatedAt": "2022-10-18T17:36:24.910Z",
+        "updatedAt": "2022-10-27T13:16:58.388Z",
         "publishedAt": "2022-10-06T18:50:13.851Z",
         "footer_text": "Feito com 💕 por Berchez !",
         "sections": [
@@ -52,7 +52,7 @@
             "id": 1,
             "__component": "section.section-content",
             "title": "NEWS COVERAGE AND SOME SURPRISES",
-            "content": "The release of **Apple Silicon-based** Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.\n\nWe’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.\n\nWe’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.",
+            "content": "The release of <b>Apple Silicon-based</b> Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.\n\nWe’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.\n\nWe’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.",
             "metadata": {
               "id": 3,
               "name": "intro",
@@ -89,6 +89,555 @@
               }
             ],
             "image_grid": []
+          },
+          {
+            "id": 2,
+            "__component": "section.section-grid",
+            "title": "Gallery",
+            "description": "Distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "metadata": {
+              "id": 4,
+              "name": "gallery",
+              "section_id": "gallery",
+              "background": false
+            },
+            "text_grid": [],
+            "image_grid": [
+              {
+                "id": 2,
+                "image": {
+                  "data": [
+                    {
+                      "id": 10,
+                      "attributes": {
+                        "name": "cld-sample-4.jpg",
+                        "alternativeText": "cld-sample-4.jpg",
+                        "caption": "cld-sample-4.jpg",
+                        "width": 1870,
+                        "height": 1250,
+                        "formats": {
+                          "large": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/large_cld_sample_4_b693d17977.jpg",
+                            "hash": "large_cld_sample_4_b693d17977",
+                            "mime": "image/jpeg",
+                            "name": "large_cld-sample-4.jpg",
+                            "path": null,
+                            "size": 132.54,
+                            "width": 1000,
+                            "height": 668,
+                            "provider_metadata": {
+                              "public_id": "large_cld_sample_4_b693d17977",
+                              "resource_type": "image"
+                            }
+                          },
+                          "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/small_cld_sample_4_b693d17977.jpg",
+                            "hash": "small_cld_sample_4_b693d17977",
+                            "mime": "image/jpeg",
+                            "name": "small_cld-sample-4.jpg",
+                            "path": null,
+                            "size": 41.92,
+                            "width": 500,
+                            "height": 334,
+                            "provider_metadata": {
+                              "public_id": "small_cld_sample_4_b693d17977",
+                              "resource_type": "image"
+                            }
+                          },
+                          "medium": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/medium_cld_sample_4_b693d17977.jpg",
+                            "hash": "medium_cld_sample_4_b693d17977",
+                            "mime": "image/jpeg",
+                            "name": "medium_cld-sample-4.jpg",
+                            "path": null,
+                            "size": 83.38,
+                            "width": 750,
+                            "height": 501,
+                            "provider_metadata": {
+                              "public_id": "medium_cld_sample_4_b693d17977",
+                              "resource_type": "image"
+                            }
+                          },
+                          "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/thumbnail_cld_sample_4_b693d17977.jpg",
+                            "hash": "thumbnail_cld_sample_4_b693d17977",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_cld-sample-4.jpg",
+                            "path": null,
+                            "size": 11.66,
+                            "width": 234,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_cld_sample_4_b693d17977",
+                              "resource_type": "image"
+                            }
+                          }
+                        },
+                        "hash": "cld_sample_4_b693d17977",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 353.2,
+                        "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/cld_sample_4_b693d17977.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                          "public_id": "cld_sample_4_b693d17977",
+                          "resource_type": "image"
+                        },
+                        "createdAt": "2022-10-27T11:20:53.601Z",
+                        "updatedAt": "2022-10-27T12:09:12.680Z"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 3,
+                "image": {
+                  "data": [
+                    {
+                      "id": 9,
+                      "attributes": {
+                        "name": "cld-sample.jpg",
+                        "alternativeText": "cld-sample.jpg",
+                        "caption": "cld-sample.jpg",
+                        "width": 1870,
+                        "height": 1250,
+                        "formats": {
+                          "large": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/large_cld_sample_69d75ec921.jpg",
+                            "hash": "large_cld_sample_69d75ec921",
+                            "mime": "image/jpeg",
+                            "name": "large_cld-sample.jpg",
+                            "path": null,
+                            "size": 108.26,
+                            "width": 1000,
+                            "height": 668,
+                            "provider_metadata": {
+                              "public_id": "large_cld_sample_69d75ec921",
+                              "resource_type": "image"
+                            }
+                          },
+                          "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/small_cld_sample_69d75ec921.jpg",
+                            "hash": "small_cld_sample_69d75ec921",
+                            "mime": "image/jpeg",
+                            "name": "small_cld-sample.jpg",
+                            "path": null,
+                            "size": 29.42,
+                            "width": 500,
+                            "height": 334,
+                            "provider_metadata": {
+                              "public_id": "small_cld_sample_69d75ec921",
+                              "resource_type": "image"
+                            }
+                          },
+                          "medium": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/medium_cld_sample_69d75ec921.jpg",
+                            "hash": "medium_cld_sample_69d75ec921",
+                            "mime": "image/jpeg",
+                            "name": "medium_cld-sample.jpg",
+                            "path": null,
+                            "size": 62.72,
+                            "width": 750,
+                            "height": 501,
+                            "provider_metadata": {
+                              "public_id": "medium_cld_sample_69d75ec921",
+                              "resource_type": "image"
+                            }
+                          },
+                          "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/thumbnail_cld_sample_69d75ec921.jpg",
+                            "hash": "thumbnail_cld_sample_69d75ec921",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_cld-sample.jpg",
+                            "path": null,
+                            "size": 7.78,
+                            "width": 234,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_cld_sample_69d75ec921",
+                              "resource_type": "image"
+                            }
+                          }
+                        },
+                        "hash": "cld_sample_69d75ec921",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 323.96,
+                        "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/cld_sample_69d75ec921.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                          "public_id": "cld_sample_69d75ec921",
+                          "resource_type": "image"
+                        },
+                        "createdAt": "2022-10-27T11:20:53.553Z",
+                        "updatedAt": "2022-10-27T12:09:33.093Z"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 4,
+                "image": {
+                  "data": [
+                    {
+                      "id": 8,
+                      "attributes": {
+                        "name": "cld-sample-3.jpg",
+                        "alternativeText": "cld-sample-3.jpg",
+                        "caption": "cld-sample-3.jpg",
+                        "width": 1870,
+                        "height": 1250,
+                        "formats": {
+                          "large": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/large_cld_sample_3_12067c1cef.jpg",
+                            "hash": "large_cld_sample_3_12067c1cef",
+                            "mime": "image/jpeg",
+                            "name": "large_cld-sample-3.jpg",
+                            "path": null,
+                            "size": 117.96,
+                            "width": 1000,
+                            "height": 668,
+                            "provider_metadata": {
+                              "public_id": "large_cld_sample_3_12067c1cef",
+                              "resource_type": "image"
+                            }
+                          },
+                          "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/small_cld_sample_3_12067c1cef.jpg",
+                            "hash": "small_cld_sample_3_12067c1cef",
+                            "mime": "image/jpeg",
+                            "name": "small_cld-sample-3.jpg",
+                            "path": null,
+                            "size": 35.21,
+                            "width": 500,
+                            "height": 334,
+                            "provider_metadata": {
+                              "public_id": "small_cld_sample_3_12067c1cef",
+                              "resource_type": "image"
+                            }
+                          },
+                          "medium": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/medium_cld_sample_3_12067c1cef.jpg",
+                            "hash": "medium_cld_sample_3_12067c1cef",
+                            "mime": "image/jpeg",
+                            "name": "medium_cld-sample-3.jpg",
+                            "path": null,
+                            "size": 70.32,
+                            "width": 750,
+                            "height": 501,
+                            "provider_metadata": {
+                              "public_id": "medium_cld_sample_3_12067c1cef",
+                              "resource_type": "image"
+                            }
+                          },
+                          "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/thumbnail_cld_sample_3_12067c1cef.jpg",
+                            "hash": "thumbnail_cld_sample_3_12067c1cef",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_cld-sample-3.jpg",
+                            "path": null,
+                            "size": 10.55,
+                            "width": 234,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_cld_sample_3_12067c1cef",
+                              "resource_type": "image"
+                            }
+                          }
+                        },
+                        "hash": "cld_sample_3_12067c1cef",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 380.23,
+                        "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/cld_sample_3_12067c1cef.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                          "public_id": "cld_sample_3_12067c1cef",
+                          "resource_type": "image"
+                        },
+                        "createdAt": "2022-10-27T11:20:53.495Z",
+                        "updatedAt": "2022-10-27T11:20:53.495Z"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 5,
+                "image": {
+                  "data": [
+                    {
+                      "id": 7,
+                      "attributes": {
+                        "name": "cld-sample-2.jpg",
+                        "alternativeText": "cld-sample-2.jpg",
+                        "caption": "cld-sample-2.jpg",
+                        "width": 1870,
+                        "height": 1250,
+                        "formats": {
+                          "large": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/large_cld_sample_2_6712b54a12.jpg",
+                            "hash": "large_cld_sample_2_6712b54a12",
+                            "mime": "image/jpeg",
+                            "name": "large_cld-sample-2.jpg",
+                            "path": null,
+                            "size": 98.85,
+                            "width": 1000,
+                            "height": 668,
+                            "provider_metadata": {
+                              "public_id": "large_cld_sample_2_6712b54a12",
+                              "resource_type": "image"
+                            }
+                          },
+                          "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/small_cld_sample_2_6712b54a12.jpg",
+                            "hash": "small_cld_sample_2_6712b54a12",
+                            "mime": "image/jpeg",
+                            "name": "small_cld-sample-2.jpg",
+                            "path": null,
+                            "size": 30.09,
+                            "width": 500,
+                            "height": 334,
+                            "provider_metadata": {
+                              "public_id": "small_cld_sample_2_6712b54a12",
+                              "resource_type": "image"
+                            }
+                          },
+                          "medium": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/medium_cld_sample_2_6712b54a12.jpg",
+                            "hash": "medium_cld_sample_2_6712b54a12",
+                            "mime": "image/jpeg",
+                            "name": "medium_cld-sample-2.jpg",
+                            "path": null,
+                            "size": 61.08,
+                            "width": 750,
+                            "height": 501,
+                            "provider_metadata": {
+                              "public_id": "medium_cld_sample_2_6712b54a12",
+                              "resource_type": "image"
+                            }
+                          },
+                          "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/thumbnail_cld_sample_2_6712b54a12.jpg",
+                            "hash": "thumbnail_cld_sample_2_6712b54a12",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_cld-sample-2.jpg",
+                            "path": null,
+                            "size": 8.17,
+                            "width": 234,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_cld_sample_2_6712b54a12",
+                              "resource_type": "image"
+                            }
+                          }
+                        },
+                        "hash": "cld_sample_2_6712b54a12",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 272.45,
+                        "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869652/cld_sample_2_6712b54a12.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                          "public_id": "cld_sample_2_6712b54a12",
+                          "resource_type": "image"
+                        },
+                        "createdAt": "2022-10-27T11:20:53.426Z",
+                        "updatedAt": "2022-10-27T11:20:53.426Z"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 6,
+                "image": {
+                  "data": [
+                    {
+                      "id": 6,
+                      "attributes": {
+                        "name": "sample.jpg",
+                        "alternativeText": "sample.jpg",
+                        "caption": "sample.jpg",
+                        "width": 864,
+                        "height": 576,
+                        "formats": {
+                          "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/small_sample_d5e6e8ac79.jpg",
+                            "hash": "small_sample_d5e6e8ac79",
+                            "mime": "image/jpeg",
+                            "name": "small_sample.jpg",
+                            "path": null,
+                            "size": 37.11,
+                            "width": 500,
+                            "height": 333,
+                            "provider_metadata": {
+                              "public_id": "small_sample_d5e6e8ac79",
+                              "resource_type": "image"
+                            }
+                          },
+                          "medium": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/medium_sample_d5e6e8ac79.jpg",
+                            "hash": "medium_sample_d5e6e8ac79",
+                            "mime": "image/jpeg",
+                            "name": "medium_sample.jpg",
+                            "path": null,
+                            "size": 66.74,
+                            "width": 750,
+                            "height": 500,
+                            "provider_metadata": {
+                              "public_id": "medium_sample_d5e6e8ac79",
+                              "resource_type": "image"
+                            }
+                          },
+                          "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/thumbnail_sample_d5e6e8ac79.jpg",
+                            "hash": "thumbnail_sample_d5e6e8ac79",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_sample.jpg",
+                            "path": null,
+                            "size": 12.62,
+                            "width": 234,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_sample_d5e6e8ac79",
+                              "resource_type": "image"
+                            }
+                          }
+                        },
+                        "hash": "sample_d5e6e8ac79",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 82.85,
+                        "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869651/sample_d5e6e8ac79.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                          "public_id": "sample_d5e6e8ac79",
+                          "resource_type": "image"
+                        },
+                        "createdAt": "2022-10-27T11:20:53.108Z",
+                        "updatedAt": "2022-10-27T11:20:53.108Z"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 7,
+                "image": {
+                  "data": [
+                    {
+                      "id": 5,
+                      "attributes": {
+                        "name": "cld-sample-5.jpg",
+                        "alternativeText": "cld-sample-5.jpg",
+                        "caption": "cld-sample-5.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "formats": {
+                          "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869512/small_cld_sample_5_06d55f3bcb.jpg",
+                            "hash": "small_cld_sample_5_06d55f3bcb",
+                            "mime": "image/jpeg",
+                            "name": "small_cld-sample-5.jpg",
+                            "path": null,
+                            "size": 23.49,
+                            "width": 500,
+                            "height": 500,
+                            "provider_metadata": {
+                              "public_id": "small_cld_sample_5_06d55f3bcb",
+                              "resource_type": "image"
+                            }
+                          },
+                          "medium": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869513/medium_cld_sample_5_06d55f3bcb.jpg",
+                            "hash": "medium_cld_sample_5_06d55f3bcb",
+                            "mime": "image/jpeg",
+                            "name": "medium_cld-sample-5.jpg",
+                            "path": null,
+                            "size": 46.18,
+                            "width": 750,
+                            "height": 750,
+                            "provider_metadata": {
+                              "public_id": "medium_cld_sample_5_06d55f3bcb",
+                              "resource_type": "image"
+                            }
+                          },
+                          "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869512/thumbnail_cld_sample_5_06d55f3bcb.jpg",
+                            "hash": "thumbnail_cld_sample_5_06d55f3bcb",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_cld-sample-5.jpg",
+                            "path": null,
+                            "size": 3.25,
+                            "width": 156,
+                            "height": 156,
+                            "provider_metadata": {
+                              "public_id": "thumbnail_cld_sample_5_06d55f3bcb",
+                              "resource_type": "image"
+                            }
+                          }
+                        },
+                        "hash": "cld_sample_5_06d55f3bcb",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 71.63,
+                        "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666869512/cld_sample_5_06d55f3bcb.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                          "public_id": "cld_sample_5_06d55f3bcb",
+                          "resource_type": "image"
+                        },
+                        "createdAt": "2022-10-27T11:18:34.208Z",
+                        "updatedAt": "2022-10-27T11:18:34.208Z"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "__component": "section.section-content",
+            "title": "Pricing",
+            "content": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><figure class=\"table\"><table><thead><tr><th>Title 1</th><th>Title 2</th><th>Title 3</th><th>Title 4</th><th>Title 5</th></tr></thead><tbody><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Testando</td></tr></tbody></table></figure>",
+            "metadata": {
+              "id": 5,
+              "name": "pricing",
+              "section_id": "pricing",
+              "background": true
+            }
           }
         ],
         "menu": {
@@ -97,27 +646,43 @@
           "logo_text": "LOGO",
           "logo": {
             "data": {
-              "id": 3,
+              "id": 4,
               "attributes": {
-                "name": "sony-theatres.svg",
-                "alternativeText": "sony-theatres.svg",
-                "caption": "sony-theatres.svg",
-                "width": 2500,
-                "height": 2500,
-                "formats": null,
-                "hash": "sony_theatres_3558600dfd",
-                "ext": ".svg",
-                "mime": "image/svg+xml",
-                "size": 2.59,
-                "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666114574/sony_theatres_3558600dfd.svg",
+                "name": "AgroAjustada.png",
+                "alternativeText": "AgroAjustada.png",
+                "caption": "AgroAjustada.png",
+                "width": 348,
+                "height": 98,
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".png",
+                    "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666809870/thumbnail_Agro_Ajustada_5ff2b64bc7.png",
+                    "hash": "thumbnail_Agro_Ajustada_5ff2b64bc7",
+                    "mime": "image/png",
+                    "name": "thumbnail_AgroAjustada.png",
+                    "path": null,
+                    "size": 14.66,
+                    "width": 245,
+                    "height": 69,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_Agro_Ajustada_5ff2b64bc7",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "Agro_Ajustada_5ff2b64bc7",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 13.41,
+                "url": "https://res.cloudinary.com/drq60winy/image/upload/v1666809870/Agro_Ajustada_5ff2b64bc7.png",
                 "previewUrl": null,
                 "provider": "cloudinary",
                 "provider_metadata": {
-                  "public_id": "sony_theatres_3558600dfd",
+                  "public_id": "Agro_Ajustada_5ff2b64bc7",
                   "resource_type": "image"
                 },
-                "createdAt": "2022-10-18T17:36:16.895Z",
-                "updatedAt": "2022-10-18T17:36:16.895Z"
+                "createdAt": "2022-10-26T18:44:30.356Z",
+                "updatedAt": "2022-10-26T18:44:30.356Z"
               }
             }
           },
@@ -133,6 +698,18 @@
               "link_text": "grid-one",
               "url": "#grid-one",
               "open_in_new_tab": false
+            },
+            {
+              "id": 3,
+              "link_text": "gallery",
+              "url": "#gallery",
+              "open_in_new_tab": false
+            },
+            {
+              "id": 5,
+              "link_text": "pricing",
+              "url": "#pricing",
+              "open_in_new_tab": false
             }
           ]
         }
@@ -142,7 +719,7 @@
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 1,
+      "pageSize": 25,
       "pageCount": 1,
       "total": 1
     }

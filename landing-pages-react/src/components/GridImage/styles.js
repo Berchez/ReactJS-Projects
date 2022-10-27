@@ -31,6 +31,8 @@ export const Image = styled.img`
   ${() => css`
     width: 100%;
     transition: all 300ms ease-in-out;
+    aspect-ratio: 1/1;
+    object-fit:cover;
 
     &:hover{
       transform: scale(1.2) rotate(10deg);

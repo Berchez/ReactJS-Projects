@@ -18,8 +18,8 @@ export const Container = styled.footer`
     }
 
     & ${SectionContainer} {
-      padding-top: 0;
-      padding-bottom: 0;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
 
   `}

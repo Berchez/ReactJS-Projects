@@ -34,5 +34,7 @@ export const GridElement = styled.div`
       left: -5rem;
       transform: rotate(5deg);
     }
+    width: 100%;
+    overflow: hidden;
   `}
 `;

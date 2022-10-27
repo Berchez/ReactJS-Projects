@@ -96,9 +96,15 @@ export const mapImageGrid = (section = {}) => {
     sectionId,
     description,
     grid: grid.map((img) => {
+      const { image: { data: dados = [] } = '' } = img;
+      console.log(img);
+
       const {
-        image: { url: srcImg = '', alternativeText: altText = '' } = '',
-      } = img;
+        attributes: { url: srcImg = '', alternativeText: altText = '' } = {},
+      } = dados[0];
+
+      console.log('url:', srcImg);
+
       return {
         srcImg,
         altText,
