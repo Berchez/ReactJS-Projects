@@ -165,8 +165,14 @@ describe('map-sections', () => {
       image_grid: [
         {
           image: {
-            alternativeText: 'abc',
-            url: 'a.svg',
+            data: [
+              {
+                attributes: {
+                  alternativeText: 'abc',
+                  url: 'a.svg',
+                },
+              },
+            ],
           },
         },
       ],

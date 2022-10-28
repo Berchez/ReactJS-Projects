@@ -28,6 +28,11 @@ exports[`<GridText /> should render with background 1`] = `
   gap: 3.2rem;
 }
 
+.c8 {
+  width: 100%;
+  overflow: hidden;
+}
+
 .c8 .c3 {
   position: relative;
   left: 5rem;
@@ -49,12 +54,13 @@ exports[`<GridText /> should render with background 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
   background: #FFFFFF;
   color: #0A1128;
-  min-height: 100vh;
+  min-height: calc(100vh - 4rem);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -74,6 +80,7 @@ exports[`<GridText /> should render with background 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -171,6 +178,11 @@ exports[`<GridText /> should render without 1`] = `
   gap: 3.2rem;
 }
 
+.c8 {
+  width: 100%;
+  overflow: hidden;
+}
+
 .c8 .c3 {
   position: relative;
   left: 5rem;
@@ -192,12 +204,13 @@ exports[`<GridText /> should render without 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
   background: #FFFFFF;
   color: #0A1128;
-  min-height: 100vh;
+  min-height: calc(100vh - 4rem);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -217,6 +230,7 @@ exports[`<GridText /> should render without 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"

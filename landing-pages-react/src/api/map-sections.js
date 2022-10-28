@@ -100,7 +100,7 @@ export const mapImageGrid = (section = {}) => {
 
       const {
         attributes: { url: srcImg = '', alternativeText: altText = '' } = {},
-      } = dados[0];
+      } = dados[0] || {};
 
       return {
         srcImg,

@@ -28,7 +28,9 @@ describe('map-menu', () => {
       ],
       logo: {
         data: {
-          url: 'a.svg',
+          attributes: {
+            url: 'a.svg',
+          },
         },
       },
     });
