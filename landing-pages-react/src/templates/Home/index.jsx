@@ -27,14 +27,7 @@ function Home() {
         const json = await data.json();
         const { attributes } = json.data[0];
         const pageData = mapData([attributes]);
-
-        //Atraso proposital com finalidade apenas de mostrar a tela de loading
-        await new Promise((r) => {
-          return setTimeout(() => {
-            setData(() => pageData[0]);
-            r();
-          }, 1000);
-        });
+        setData(() => pageData[0]);
       } catch (e) {
         setData(undefined);
       }
