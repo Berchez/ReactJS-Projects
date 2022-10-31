@@ -21,7 +21,7 @@ function Home() {
     const load = async () => {
       try {
         const data = await fetch(
-          `http://localhost:1337/api/pages/?filters[slug]=${slug}&populate=deep`,
+          `https://landing-pages-berchez.herokuapp.com/api/pages/?filters[slug]=${slug}&populate=deep`,
         );
 
         const json = await data.json();
