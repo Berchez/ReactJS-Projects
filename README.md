@@ -14,7 +14,7 @@ This project was made to learn the basics of react like:
 * SyntheticEvent
 * Testing Library (Jest)
 
-To see more click [here]: https://bit.ly/3zqRdPh
+To see more click [here](https://bit.ly/3zqRdPh).
 
 #### Home
 ![Site](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/basic-react/src/images/sitePreview.png)
@@ -46,7 +46,7 @@ This project was developed in order to practice the content studied in a more "r
 * Storybook
 * Snippets
 
-To see more click [here]: https://bit.ly/3DOFD2M .
+To see more click [here](https://bit.ly/3DOFD2M).
  
 ### Home
 ![Home1](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/home1Preview.png)
