@@ -27,7 +27,7 @@ To see more click [here](https://bit.ly/3zqRdPh).
 This project was made to dedicate only to the use of hooks, without reckoning anything graphical.
 In this project, the use of:
 * React Router Dom
-* ESLint, Prettier, editorConfig e Prop-Types
+* ESLint, Prettier, editorConfig, Babel e Prop-Types
 * useState
 * useEffect
 * useCallback

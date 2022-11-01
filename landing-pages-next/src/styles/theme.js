@@ -1,7 +1,7 @@
 export const theme = {
   colors: {
     primaryColor: '#0A1128',
-    secondaryColor: '#DC143C',
+    secondaryColor: '#dc143c',
     white: '#FFFFFF',
     mediumGray: '#DDDDDD',
   },
@@ -35,5 +35,3 @@ export const theme = {
     xhuge: '6.4rem',
   },
 };
-
-export default theme;
