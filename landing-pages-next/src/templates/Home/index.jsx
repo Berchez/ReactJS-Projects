@@ -1,49 +1,31 @@
+import P from 'prop-types';
+import Head from 'next/head';
+
 import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+
+import * as Styled from './styles';
 
 import { mapData } from '../../api/map-data';
-import { PageNotFound } from '../PageNotFound';
-import { Loading } from '../Loading';
+
+import { Heading } from '../../components/Heading';
 import { GridTwoColumns } from '../../components/GridTwoColumns';
 import { GridContent } from '../../components/GridContent';
 import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
+
+import { mockBase } from '../Base/mock';
 import { Base } from '../Base';
+import { PageNotFound } from '../PageNotFound';
+import { Loading } from '../Loading';
 
-function Home() {
-  const [data, setData] = useState([]);
-  const location = useLocation();
+import config from '../../config';
 
-  useEffect(() => {
-    const pathname = location.pathname.replace(/[^a-z0-9-_]/gi, '');
-    const slug = pathname ? pathname : 'landing-pages';
-
-    const load = async () => {
-      try {
-        const data = await fetch(
-          `https://landing-pages-berchez.herokuapp.com/api/pages/?filters[slug]=${slug}&populate=deep`,
-        );
-
-        const json = await data.json();
-        const { attributes } = json.data[0];
-        const pageData = mapData([attributes]);
-        setData(() => pageData[0]);
-      } catch (e) {
-        setData(undefined);
-      }
-    };
-    load();
-  }, [location.pathname]);
-
-  if (data === undefined) {
+function Home({ data }) {
+  if (!data || !data.length) {
     return <PageNotFound />;
   }
 
-  if (data && !data.slug) {
-    return <Loading />;
-  }
-
-  const { menu, sections, footerHtml, slug } = data;
+  const { menu, sections, footerHtml, slug, title } = data[0];
   const { links, text, link, srcImg } = menu;
 
   return (
@@ -52,6 +34,11 @@ function Home() {
       footerHtml={footerHtml}
       logoData={{ text, link, srcImg }}
     >
+      <Head>
+        <title>
+          {title} | {config.siteName}
+        </title>
+      </Head>
       {sections.map((section, index) => {
         const { component } = section;
         const key = `${slug}-${index}`;
@@ -77,3 +64,7 @@ function Home() {
 }
 
 export default Home;
+
+Home.propTypes = {
+  data: P.array,
+};
