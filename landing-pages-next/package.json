@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "export": "next export",
+    "start": "next start",
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "deploy-static": "npm run build && npm run export"
   },
   "dependencies": {
     "@styled-icons/material-outlined": "^10.28.0",
