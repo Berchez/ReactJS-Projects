@@ -12,6 +12,7 @@ import { GridImage } from '../../components/GridImage';
 import { Base } from '../Base';
 
 import config from '../../config';
+import { theme } from '../../styles/theme';
 
 function Home({ data }) {
   const { menu, sections, footerHtml, slug, title } = data[0];
@@ -27,6 +28,11 @@ function Home({ data }) {
         <title>
           {title} | {config.siteName}
         </title>
+        <meta name="theme-color" content={theme.colors.primaryColor} />
+        <meta
+          name="description"
+          content="The best landing pages on the entire web"
+        />
       </Head>
       {sections.map((section, index) => {
         const { component } = section;
