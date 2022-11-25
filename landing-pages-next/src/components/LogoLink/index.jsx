@@ -10,7 +10,7 @@ export const LogoLink = ({ text, srcImg = '', link }) => {
     return (
       <Heading size="small" uppercase>
         <Link href={link} passHref>
-          <Styled.Container href={link}>
+          <Styled.Container>
             {!!srcImg && <img src={srcImg} alt={text} />}
             {!srcImg && text}
           </Styled.Container>
@@ -18,6 +18,15 @@ export const LogoLink = ({ text, srcImg = '', link }) => {
       </Heading>
     );
   }
+
+  return (
+    <Heading size="small" uppercase>
+      <Styled.Container href={link}>
+        {!!srcImg && <img src={srcImg} alt={text} />}
+        {!srcImg && text}
+      </Styled.Container>
+    </Heading>
+  );
 };
 
 LogoLink.propTypes = {
