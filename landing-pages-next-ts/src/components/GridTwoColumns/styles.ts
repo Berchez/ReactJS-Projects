@@ -30,14 +30,10 @@ export const TextContainer = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  ${() => css`
 
-  `}
 `;
 
 export const Image = styled.img`
-  ${() => css`
     width: 100%;
     height: 100%;
-  `}
 `;
