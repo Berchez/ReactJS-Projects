@@ -1,9 +1,6 @@
 import P from 'prop-types';
 import Head from 'next/head';
 
-import * as Styled from './styles';
-
-import { Heading } from '../../components/Heading';
 import { GridTwoColumns } from '../../components/GridTwoColumns';
 import { GridContent } from '../../components/GridContent';
 import { GridText } from '../../components/GridText';
