@@ -9,11 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.1"
+  },
   "dependencies": {
-    "@strapi/strapi": "4.4.3",
-    "@strapi/plugin-users-permissions": "4.4.3",
     "@strapi/plugin-i18n": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/strapi": "4.4.3",
     "pg": "8.6.0"
   },
   "author": {
