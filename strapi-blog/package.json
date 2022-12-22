@@ -20,14 +20,16 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.4.3",
     "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/provider-upload-cloudinary": "^4.5.3",
     "@strapi/strapi": "4.4.3",
-    "pg": "8.6.0"
+    "pg": "8.6.0",
+    "strapi-provider-upload-cloudinary": "^3.6.11"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "9bcc868b-025a-418f-9100-22f14316de6c"
+    "uuid": "ca65f17f-eb8e-43e4-88cd-4a51f918813a"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
