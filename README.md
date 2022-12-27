@@ -45,8 +45,11 @@ This project was developed in order to practice the content studied in a more "r
 * Styled-Components
 * Storybook
 * Snippets
+* How to refactor React to Next.js
+* SSR, SSG and ISG
+* How to refactor Next.js to TypeScript
 
-To see more click [here](https://bit.ly/3DOFD2M).
+To see more click [here](https://bit.ly/3DOFD2M) (vannila react version).
  
 ### Home
 ![Home1](https://raw.githubusercontent.com/Berchez/EstudandoReact/main/landing-pages-react/src/images/home1Preview.png)
