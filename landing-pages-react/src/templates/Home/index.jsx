@@ -21,7 +21,7 @@ function Home() {
     const load = async () => {
       try {
         const data = await fetch(
-          `https://strapi-landing-pages.onrender.com//api/pages/?filters[slug]=${slug}&populate=deep`,
+          `https://strapi-landing-pages.onrender.com/api/pages/?filters[slug]=${slug}&populate=deep`,
         );
 
         const json = await data.json();
