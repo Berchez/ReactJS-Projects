@@ -15,7 +15,7 @@ export const Base = ({ links, logoData, footerHtml, children }) => {
         {children}
         <Footer footerHtml={footerHtml} />
       </Styled.Container>
-      <GoTop onClick={console.log(`${config.url}/api/pages?&populate=deep`)} />
+      <GoTop />
     </>
   );
 };
