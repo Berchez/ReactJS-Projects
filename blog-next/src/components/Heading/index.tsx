@@ -9,7 +9,7 @@ export type HeadingProps = {
   uppercase?: boolean;
 };
 
-export const Heading: React.FC<HeadingProps> = ({
+export const Heading = ({
   children,
   colorDark = true,
   as = 'h1',

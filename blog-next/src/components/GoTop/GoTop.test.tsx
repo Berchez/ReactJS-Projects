@@ -13,7 +13,7 @@ describe('<GoTop />', () => {
     expect(container).toMatchInlineSnapshot(`
       .c0 {
         position: fixed;
-        background: #0A1128;
+        background: #000;
         color: #FFFFFF;
         display: -webkit-box;
         display: -webkit-flex;
@@ -55,10 +55,6 @@ describe('<GoTop />', () => {
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M0 0h24v24H0V0z"
-              fill="none"
-            />
             <path
               d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
             />

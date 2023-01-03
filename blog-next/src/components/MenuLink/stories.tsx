@@ -14,7 +14,7 @@ export default {
   },
   parameters: {
     backgrounds: {
-      default: 'dark',
+      default: 'light',
     },
   },
 } as Meta;
@@ -23,7 +23,7 @@ export const Template: Story<MenuLinkProps> = (args) => {
   return (
     <div
       style={{
-        maxWidth: '350px',
+        maxWidth: '320px',
         background: theme.colors.primary,
         padding: theme.spacings.large,
       }}

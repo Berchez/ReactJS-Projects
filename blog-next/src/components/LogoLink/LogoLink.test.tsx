@@ -34,6 +34,13 @@ describe('<LogoLink />', () => {
     );
   });
 
+  it('should render internal link with target _blank', () => {
+    renderTheme(<LogoLink link="/target" text="Hello World!" newTab={true} />);
+    expect(
+      screen.getByRole('heading', { name: 'Hello World!' }),
+    ).toBeInTheDocument();
+  });
+
   it('should render internal link with text only', () => {
     renderTheme(<LogoLink link="/target" text="Hello world" />);
     expect(

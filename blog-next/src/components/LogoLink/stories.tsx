@@ -8,6 +8,7 @@ export default {
     text: 'LogoLink',
     srcImg: 'assets/images/me.png',
     link: 'http://localhost',
+    newTab: false,
   },
 } as Meta;
 

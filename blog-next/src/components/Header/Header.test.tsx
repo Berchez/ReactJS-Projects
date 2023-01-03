@@ -9,7 +9,7 @@ describe('<Header />', () => {
     renderTheme(<Header {...props} showText={undefined} />);
 
     expect(
-      screen.getByRole('heading', { name: 'Walter Berchez' }),
+      screen.getByRole('heading', { name: props.blogName }),
     ).toBeInTheDocument();
 
     expect(
