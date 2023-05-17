@@ -1,5 +1,6 @@
-import Link from 'next/link';
 import NavBar from '../../components/Navbar';
+import Form from './components/Form';
+import Header from './components/Header';
 
 export default function Reserve() {
   return (
@@ -8,69 +9,8 @@ export default function Reserve() {
         <NavBar />
         <div className="border-t h-screen">
           <div className="py-9 w-3/5 m-auto">
-            {/* HEADER */}
-            <div>
-              <h3 className="font-bold">You're almost done!</h3>
-              <div className="mt-5 flex">
-                <img
-                  src="https://resizer.otstatic.com/v2/photos/xlarge/2/41735822.jpg"
-                  alt=""
-                  className="w-32 h-18 rounded"
-                />
-                <div className="ml-4">
-                  <h1 className="text-3xl font-bold">
-                    Seasons 52 - Albuquerque
-                  </h1>
-                  <div className="flex mt-3">
-                    <p className="mr-6">Tues, 22, 2023</p>
-                    <p className="mr-6">7:30 PM</p>
-                    <p className="mr-6">3 people</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* HEADER */} {/* FORM */}
-            <div className="mt-10 flex flex-wrap justify-between w-[660px]">
-              <input
-                type="text"
-                className="border rounded p-3 w-80 mb-4 bg-white"
-                placeholder="First name"
-              />
-              <input
-                type="text"
-                className="border rounded p-3 w-80 mb-4 bg-white"
-                placeholder="Last name"
-              />
-              <input
-                type="text"
-                className="border rounded p-3 w-80 mb-4 bg-white"
-                placeholder="Phone number"
-              />
-              <input
-                type="text"
-                className="border rounded p-3 w-80 mb-4 bg-white"
-                placeholder="Email"
-              />
-              <input
-                type="text"
-                className="border rounded p-3 w-80 mb-4 bg-white"
-                placeholder="Occasion (optional)"
-              />
-              <input
-                type="text"
-                className="border rounded p-3 w-80 mb-4 bg-white"
-                placeholder="Requests (optional)"
-              />
-              <button className="bg-red-600 w-full p-3 text-white font-bold rounded disabled:bg-gray-300">
-                Complete reservation
-              </button>
-              <p className="mt-4 text-sm">
-                By clicking “Complete reservation” you agree to the OpenTable
-                Terms of Use and Privacy Policy. Standard text message rates may
-                apply. You may opt out of receiving text messages at any time.
-              </p>
-            </div>
-            {/* FORM */}
+            <Header />
+            <Form />
           </div>
         </div>
       </main>
