@@ -28,7 +28,7 @@ export default function Header() {
               router.push('/search');
             }}
           >
-            Let's go
+            Lets go
           </button>
         </div>
         {/* SEARCH BAR */}
