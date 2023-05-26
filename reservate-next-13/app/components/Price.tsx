@@ -6,17 +6,22 @@ export default function Price({ price }: { price: PRICE }) {
     if (price === PRICE.CHEAP) {
       return (
         <>
-          <span>$$</span> <span className="text-gray-400">$$</span>
+          <span>$$</span>
+          <span className="text-gray-400">$$</span>
         </>
       );
     } else if (price === PRICE.REGULAR) {
-      <>
-        <span>$$$</span> <span className="text-gray-400">$</span>
-      </>;
+      return (
+        <>
+          <span>$$$</span> <span className="text-gray-400">$</span>
+        </>
+      );
     } else {
-      <>
-        <span>$$$$</span>
-      </>;
+      return (
+        <>
+          <span>$$$$</span>
+        </>
+      );
     }
   };
   return <p className=" flex mr-3">{renderPrice()}</p>;
